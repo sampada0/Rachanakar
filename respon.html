@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>respos</title>
+    <style>
+       .container{
+        background-color: green;
+       }
+        .box{
+            background-color: orange;
+           width: 200px;
+           height: 100px;
+            animation-name: xyz;
+            animation-duration: 5s;
+            animation-iteration-count: 3;
+            
+        }
+        .sam{
+            animation-name: sampa;
+            background-color: white;
+            width: 200px;
+           height: 350px;
+            
+            animation-duration: 5s;
+            animation-iteration-count: 3;
+        }
+
+         @keyframes sampa {
+            from{
+                width: 100px;
+            }
+            to{
+                width: 700px;
+            }
+         }
+
+
+        @keyframes xyz {
+           
+            from{
+                height: 200px;
+            }
+            to{
+                height: 300px;
+                width: 400px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="box"></div>
+            <div class="sam">
+
+            </div>
+        </div>
+      
+
+    </section>
+</body>
+</html>

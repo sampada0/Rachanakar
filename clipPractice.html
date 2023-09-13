@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clip</title>
+    <style>
+        body{
+            background-color: black;
+            display: flex;
+            /* height: 500px; */
+            align-items: center;
+            justify-content: center;
+
+        }
+        .main{
+            
+        }
+        section{
+            display: flex;
+            align-items: center;
+            height: 600px;
+            
+        }
+        .one{
+            width: 40vw;
+            height: 285px;
+            background-image: url('https://img.freepik.com/free-vector/gradient-blue-abstract-technology-background_23-2149213765.jpg');
+            /* margin: auto; */
+           border: 3px solid skyblue; 
+            
+        }
+        .two{
+            clip-path: polygon(72% 66%, 43% 100%, 0 100%, 0 23%);
+            height: 200px;
+            width: 200px;
+            background-color: white;
+            position: relative;
+            top: -110px;
+            
+        }
+       
+        .txt{
+            padding-left: 240px;
+            padding-top: 50px;
+            font-size: 20px;
+            color: white;
+            font-weight: 1000;
+        }
+        h2{
+            font-weight: 5000
+            ;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="main">
+            <div class="one">
+                <div class="txt">
+                <h1>widget of the week</h1>
+                <h2>Clip path</h2>
+            </div>
+                <div class="two">
+
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

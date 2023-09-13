@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>curveClip</title>
+    <style>
+        
+
+        .main {
+            display: flex;
+        }
+
+        .box {
+            border: 1px solid;
+            width: 20vw;
+            height: 50vh;
+            display: flex;
+            margin: 10px;
+            
+            background-color: rgba(134, 125, 125, 0.333);
+
+
+        }
+
+        .clip1 {
+            clip-path: ellipse(50% 49% at 92% 7%);
+            top: -327px;
+            clip-path: ellipse(50% 49% at 92% 7%);
+            height: 39vh;
+            background-color: yellowgreen;
+            width: 246px;
+            position: relative;
+            right: -10px;
+
+        }
+
+        .clip2 {
+            clip-path: ellipse(50% 49% at 92% 7%);
+            top: -577px;
+            clip-path: ellipse(50% 49% at 92% 7%);
+            height: 39vh;
+            background-color: rgb(50, 71, 205);
+            width: 246px;
+            position: relative;
+            right: -278px;
+            /* position: absolute; */
+        }
+
+        .clip3 {
+            clip-path: ellipse(50% 49% at 92% 7%);
+            top: -828px;
+            clip-path: ellipse(50% 49% at 92% 7%);
+            height: 39vh;
+            background-color: rgb(205, 107, 50);
+            width: 246px;
+            position: relative;
+            right: -545px;
+            /* position: absolute; */
+        }
+
+        .h1 {
+            font-size: 10px;
+            padding-right: 20px;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            display: flex;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <section>
+        <div class="main">
+            <div class="box">
+                
+            <h1>welcome</h1>
+            </div>
+            <div class="box">
+                
+            <h1>welcome</h1>
+            </div>
+
+            <div class="box">
+                
+            <h1>welcome</h1>
+            </div>
+        </div>
+        <div class="clip1">
+        
+        <div class="text">
+            <h1>1</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+        </div>
+        <div class="clip2">
+        <div class="text">
+            <h1>2</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div class="clip3">
+        <div class="text">
+            <h1>3</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html>

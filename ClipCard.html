@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clipcard</title>
+    <style>
+        .main{
+            display: flex;
+            /* padding: 3px; */
+            margin: auto;
+        }
+        .one{
+            border: 1px solid black;
+            height: 50vh;
+            width: 20vw;
+            display: flex;
+            margin: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+        .two{
+            clip-path: polygon(0 0, 100% 0, 100% 49%, 0 79%);
+            height: 45vh;
+            width: 20vw;
+            position: relative;
+            bottom: -10px;
+            left: -259px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="main">
+            <div class="one"></div>
+            <div class="one"></div>
+            <div class="one"></div>
+            <div class="two">
+
+            </div>
+
+        </div>
+    </section>
+</body>
+</html>

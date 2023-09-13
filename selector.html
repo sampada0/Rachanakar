@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selector</title>
+<style>
+    /* ...........universal selector............ */
+    *{
+        /* color: red; */
+        box-sizing: border-box;
+        width: 90%;
+        height: auto;
+        background-color: steelblue;
+
+
+    }
+    p{
+        background-color: aqua;
+    }
+
+    /* .............psuedo selector..............1 active 2 link 3 visited 4 hover */
+    p:hover{
+        color: blue;
+        font-size: 20px;
+    }
+    /* a:visited{
+        color: yellowgreen;
+    } */
+    a :link{
+        color: turquoise;
+    }
+    [id="as"]{
+        background-color: yellow;
+    }
+    h1::first-letter{
+        background-color: brown;
+        
+    }
+</style>
+</head>
+
+<body>
+    <p id="as">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque odio quos nesciunt.</p>
+    <h1>sampada</h1>
+    <div class="sam">
+    <p>Lorem ipsum dolor sit amet consectetur adipnesciunt, minima ipsam!</p>
+
+    <h1>TechRel Institute pune </h1>
+    <a href="">click me</a>
+    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, aliquid.</h5>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo fuga deserunt voluptatem cumque asperiores porro nesciunt excepturi consectetur consequuntur non, sint alias a eveniet repellat repudiandae esse, maiores quasi dolores?</p>
+    
+</div>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginFive</title>
+    <style>
+        section {
+            display: flex;
+        }
+
+        .one {
+            background-color: rgb(220, 233, 238);
+            border: 1px solid;
+            border: none;
+            width: 28vw;
+            height: 80vh;
+            /* margin: auto; */
+            /* margin-top: 70px; */
+            clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+            float: left;
+        }
+
+        .main {
+            margin: auto;
+            /* margin-top: 40px; */
+            border: 40px solid rgb(228, 172, 68);
+            height: 80vh;
+            width: 70vw;
+            background-color: white;
+            justify-content: space-between;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+
+        }
+
+        button {
+            background-color: skyblue;
+            padding: 10px;
+            border-radius: 50px;
+            width: 20vw;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            margin-top: 25px;
+        }
+
+        img {
+            width: 20vw;
+            height: 30vh;
+            margin: auto;
+            display: flex;
+            margin-top: 90px;
+        }
+
+        .EP {
+            border: none;
+            outline: none;
+
+        }
+
+        #box {
+            display: flex;
+            align-items: center;
+        }
+
+        input {
+            outline: none;
+            border: none;
+            border-left: 4px solid skyblue;
+            height: 23px;
+            padding: 0px 5px;
+            margin: 5px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="main">
+        <div class="one">
+            <img src="./images-removebg-preview.png" alt="">
+        </div>
+        <div id="box">
+            <div>
+                <h1 style="padding-right: 200px;">Contact Us</h1>
+                <input type="text" placeholder="Full Name" style=""><br>
+                <input type="email" placeholder="Email" style=""><br>
+                <input type="text" placeholder="Your Message" style=""><br>
+                <button>Send Message</button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
