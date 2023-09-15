@@ -1,13 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FixedSideBar</title>
     <style>
+        .sidebar {
+            height: 100%;
+            width: 170px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            padding-top: 20px;
+        }
 
+        .main {
+            margin-left: 160px;
+            /* Same as the width of the sidenav */
+            font-size: 28px;
+            /* Increased text to enable scrolling */
+            padding: 0px 10px;
+        }
     </style>
 </head>
+
 <body>
     <div class="sidebar">
         <a href="home"></a>
@@ -15,5 +35,30 @@
         <a href="clients"></a>
         <a href="contact"></a>
     </div>
+    <div class="main">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut ipsum architecto magni et doloremque optio,
+            nostrum at dolore cum quia, similique dicta mollitia quis deserunt necessitatibus exercitationem aperiam
+            nisi recusandae asperiores possimus praesentium. Totam, voluptatem id nobis ad voluptate quibusdam
+            laboriosam delectus, fugit sapiente recusandae sit, repellat saepe quos voluptates? Perspiciatis dolore eos,
+            minus maxime, sunt consequatur rem, ipsam nobis magnam impedit praesentium! Quisquam quae animi in.
+            Laboriosam nobis ab ratione aut reiciendis obcaecati, ipsam quod inventore dicta necessitatibus, praesentium
+            voluptatum minus accusantium iste at eaque. Voluptatum totam hic ab rerum. Vero deserunt dolores
+            voluptatibus tempora nesciunt esse iure libero tenetur dolor saepe, enim voluptatum nemo nihil. Placeat
+            autem omnis suscipit cumque fugiat, maxime eius voluptas quasi tenetur corrupti nam iusto sapiente ipsum
+            doloremque temporibus dolores nesciunt dolor. Necessitatibus, vitae numquam! Nemo voluptates tempore maiores
+            error officia, voluptatum aliquam rem odit minima obcaecati hic minus! Quibusdam itaque obcaecati veritatis
+            eaque nemo ratione ea ipsam molestias optio harum, sequi iste ullam modi, nihil veniam quisquam sint
+            dolores. Quasi perspiciatis sit consectetur expedita dolor, obcaecati eveniet temporibus cum inventore. Rem
+            amet cumque mollitia. Adipisci explicabo quis reiciendis modi, sint quisquam officiis soluta quia
+            praesentium repellendus quo alias nulla molestiae incidunt exercitationem dignissimos quae eaque cupiditate
+            dolores aliquam ullam? Mollitia tempora consequuntur dicta accusantium et, vel at veritatis iure tenetur
+            officia harum assumenda saepe non necessitatibus adipisci a quas? Officiis totam consequatur qui quos
+            deleniti illo incidunt ullam. Error consequatur officiis quisquam quaerat ab at quae tenetur iste corrupti
+            eum saepe quasi magni ipsam inventore, nostrum et atque reiciendis vitae deserunt nobis dolorum. Culpa dicta
+            officiis hic corporis nemo iste, fugit velit, in dolor amet soluta. Eveniet animi veritatis voluptate
+            deserunt accusantium saepe architecto vero rem eos delectus esse consectetur odio corrupti quis assumenda
+            autem, omnis ab dignissimos repellat modi dolorum mollitia nihil?</p>
+    </div>
 </body>
+
 </html>
