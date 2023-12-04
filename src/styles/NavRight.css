@@ -1,0 +1,14 @@
+.right-container{
+    display: flex;
+}
+.sign-in{
+margin-top: 10px;
+font-size:25px ;
+margin-right: 20px;
+}
+.dot-icon{
+    margin-top: 10px;
+    font-size:25px ;
+    margin-right: 20px;
+    cursor: pointer;
+}

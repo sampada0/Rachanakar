@@ -1,0 +1,23 @@
+.left-container {
+    font-size: 30px;
+    display: flex;
+}
+
+
+.logo-text {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.youtube-logo {
+    margin-top: 8px;
+    color: red;
+    display: flex;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.menu-bar {
+    margin-left: 30px;
+    cursor: pointer;
+}

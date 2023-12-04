@@ -1,11 +1,25 @@
 
 import React from 'react'
-import NavLeft from './components/navigationBar/NavLeft'
+import './App.css'
+import NavigationBar from './components/NavigationBar'
+import SideBar from './components/SideBar'
+import AllVideo from './components/AllVideo'
+// import Video from './components/Video'
+
 function App() {
   return (
-    <div>
-      <NavLeft/>
+    
+    <div className='navbar'>
+     <NavigationBar/>
+      <div style={{display:"flex"}}>
+      <SideBar/>
+      {/* <video/> */}
+      <AllVideo/>
+      </div>
     </div>
+
+    
+
   )
 }
 
